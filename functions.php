@@ -31,5 +31,13 @@ function infobasic_scripts() {
         '4.5',
         'all'
     );
+
+     wp_enqueue_style(
+        'style_css',
+        get_theme_file_uri('style.css'),
+        array(),
+        '1.0',
+        'all'
+    );
 }
 add_action( 'wp_enqueue_scripts', 'infobasic_scripts' );
