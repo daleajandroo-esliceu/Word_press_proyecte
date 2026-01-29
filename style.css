@@ -40,3 +40,7 @@ body {
     background-color: var(--main-color);
 }
 
+.dropdown-menu a:hover{
+    background-color: var(--main-color);
+}
+
